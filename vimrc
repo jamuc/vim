@@ -16,7 +16,12 @@ nnoremap <leader>t :e ~/.todo<cr>
 "quickly access the .xing file
 nnoremap <leader>x :e ~/.xing<cr>
 "drop into the shell
-nnoremap <leader>h :shell<cr>
+nnoremap <leader>s :shell<cr>
+"drop into the global gitignore file
+nnoremap <leader>g :e ~/.global_gitignore<cr>
+"run rubocop on current file
+let g:vimrubocop_keymap = 0
+nnoremap <Leader>r :RuboCop<cr>
 
 "set up tabbing
 set tabstop=2
@@ -37,3 +42,12 @@ nnoremap <leader>f :find
 set path=$PWD/**
 "Quick edit the current directory
 nnoremap <leader>ed :e %:p:h<cr>
+"quickly go to the definition of the tag
+nnoremap <leader>d <C-]>
+
+"allow quick windows switching
+nnoremap <leader>j <C-W>j
+nnoremap <leader>k <C-W>k
+nnoremap <leader>h <C-W>h
+nnoremap <leader>l <C-W>l
+nnoremap <leader>o <C-W>o
