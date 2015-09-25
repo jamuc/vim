@@ -53,3 +53,4 @@ nnoremap <leader>k <C-W>k
 nnoremap <leader>h <C-W>h
 nnoremap <leader>l <C-W>l
 nnoremap <leader>o <C-W>o
+nnoremap <leader>x <C-W>x
