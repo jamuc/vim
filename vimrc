@@ -4,6 +4,8 @@ set number
 let mapleader=","
 "map ESC to jk
 inoremap jk <esc>
+"set up path to tags file
+set tags=$PWD/.git/tags
 
 "quick access to the vimrc
 nnoremap <leader>v :e ~/.vim/vimrc<cr>
